@@ -1,0 +1,105 @@
+:root {
+   --color-black: #000000;
+   --color-black-light: #333333;
+   --color-white: #ffffff;
+   --background-color-blue-light: #81B3D2;
+   --background-color-grey: #EEEEEE;
+}
+
+body {
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: var(--color-black-light);
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-navigation {
+    text-align: center;
+}
+
+.site-navigation a {
+    font-weight: bold;
+    line-height: 26px;
+    color: var(--color-black);   
+}
+
+.container {
+    text-align: center;
+}
+
+.title-wrap h1 {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    color: var(--color-black);
+}
+
+.features h2 {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.features-item-blue {
+    color: var(--color-white);
+    background-color: var(--background-color-blue-light);
+}
+
+.features-item-blue h3 {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 21px;
+}
+
+.features-item-inner h4 {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 21px;
+    color: var(--color-black);
+}
+
+.features-item {
+background-color: var(--background-color-grey);
+}
+
+.features-item h3 {
+    font-weight: bold;
+    font-size: 21px;
+    color: var(--color-black);
+}
+
+.search {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 24px;
+    color: var(--color-black);
+}
+
+.search-info {
+    font-size: 14px;
+    color: var(--color-black-light);
+    font-weight: normal;
+}
+.page-footer {
+    text-align: center;
+}
+
+.footer-contacts {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    color: var(--color-black);
+}
+
+.footer-contacts a {
+    color: var(--color-black);  
+}
+
+.footer-copyright {
+    line-height: 26px;
+    color: var(--color-black);
+}
