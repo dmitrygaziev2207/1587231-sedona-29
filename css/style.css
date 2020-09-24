@@ -4,6 +4,7 @@
    --color-white: #ffffff;
    --background-color-blue-light: #81B3D2;
    --background-color-grey: #EEEEEE;
+   --color-active-black: rgba(0,0,0,0.3);
 }
 
 body {
@@ -28,6 +29,13 @@ a {
     color: var(--color-black);   
 }
 
+.site-navigation a:hover {
+    color: var(--background-color-blue-light);
+}
+.site-navigation a:active {
+    color: var(--color-active-black);
+}
+
 .container {
     text-align: center;
 }
@@ -42,6 +50,7 @@ a {
 .features h2 {
     font-size: 14px;
     line-height: 26px;
+    font-weight: normal;
 }
 
 .features-item-blue {
