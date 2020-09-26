@@ -2,9 +2,17 @@
    --color-black: #000000;
    --color-black-light: #333333;
    --color-white: #ffffff;
+   --color-white-transparent: rgba(255,255,255,0.3);
    --background-color-blue-light: #81B3D2;
+   --background-color-blue: #669EC0;
+   --background-color-blue-extra: #5496BD;
    --background-color-grey: #EEEEEE;
+   --background-color-grey-light: #F2F2F2;
+   --background-color-grey-extra: #666666;
    --color-active-black: rgba(0,0,0,0.3);
+   --color-active-brown: #766357;
+   --background-color-brown: #604E43;
+   --background-color-brown-extra: #503E33; 
 }
 
 body {
@@ -111,4 +119,104 @@ background-color: var(--background-color-grey);
 .footer-copyright {
     line-height: 26px;
     color: var(--color-black);
+}
+
+.site-navigation .active {
+    color: var(--color-active-brown);
+}
+
+.inner-body {
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: var(--color-black-light);
+}
+
+.inner-container {
+    text-align: center;
+}
+
+.result {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    color: var(--color-black);
+}
+
+.sorting  {
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--color-black); 
+}
+.sorting a {
+    text-decoration: underline;
+}
+
+.sorting a {
+    color: var(--color-active-black); 
+}
+
+.sorting .a-active {
+    color: var(--background-color-blue-light);
+    text-decoration: none;
+}
+
+.sorting a:hover {
+    color: var(--background-color-blue-light);
+}
+.sorting a:active {
+    color: var(--color-black);
+}
+
+.hotels h3 {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    color: var(--color-black);
+}
+
+.detail {
+background-color: var(--background-color-blue-light);
+color: var(--color-white);
+}
+
+.detail:hover {
+    background-color: var(--background-color-blue);
+}
+
+.detail:active {
+    background-color: var(--background-color-blue-extra);
+    color: var(--color-white-transparent);
+}
+
+.reserve {
+    background-color: var(--color-active-brown);
+    color: var(--color-white);
+}
+
+.reserve:hover {
+    background-color: var(--background-color-brown);
+}
+
+.reserve:active {
+    background-color: var(--background-color-brown-extra);
+    color: var(--color-white-transparent);
+}
+
+.hotels-result {
+    color: var(--color-black);
+}
+
+.hotels-result:hover {
+    color: var(--background-color-blue-light);
+}
+
+.hotels-result:active {
+    color: var(--color-active-black);
+}
+
+.rating {
+    color: var(--background-color-grey-extra);
+    background-color: var(--background-color-grey-light);
 }
