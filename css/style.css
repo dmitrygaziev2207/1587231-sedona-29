@@ -134,7 +134,7 @@ background-color: var(--background-color-grey);
 }
 
 .inner-container {
-    text-align: center;
+    text-align: left;
 }
 
 .result {
@@ -150,7 +150,7 @@ background-color: var(--background-color-grey);
     color: var(--color-black); 
 }
 .sorting a {
-    text-decoration: underline;
+    border-bottom: 1px dashed var(--background-color-blue-light);
 }
 
 .sorting a {
@@ -159,7 +159,7 @@ background-color: var(--background-color-grey);
 
 .sorting .a-active {
     color: var(--background-color-blue-light);
-    text-decoration: none;
+    border-bottom: none;
 }
 
 .sorting a:hover {
@@ -179,6 +179,7 @@ background-color: var(--background-color-grey);
 .detail {
 background-color: var(--background-color-blue-light);
 color: var(--color-white);
+font-weight: bold;
 }
 
 .detail:hover {
@@ -193,6 +194,7 @@ color: var(--color-white);
 .reserve {
     background-color: var(--color-active-brown);
     color: var(--color-white);
+    font-weight: bold;
 }
 
 .reserve:hover {
