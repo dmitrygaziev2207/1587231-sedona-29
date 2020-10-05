@@ -149,11 +149,9 @@ background-color: var(--background-color-grey);
     line-height: 18px;
     color: var(--color-black); 
 }
-.sorting a {
-    border-bottom: 1px dashed var(--background-color-blue-light);
-}
 
 .sorting a {
+    border-bottom: 1px dotted var(--background-color-blue-light);
     color: var(--color-active-black); 
 }
 
@@ -167,6 +165,7 @@ background-color: var(--background-color-grey);
 }
 .sorting a:active {
     color: var(--color-black);
+    border-bottom: none;
 }
 
 .hotels h3 {
