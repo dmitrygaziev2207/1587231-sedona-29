@@ -8,6 +8,7 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body class="page-body">
+    <div class="container">
     <header class="main-header">
       <nav class="main-navigation">
           <img src="img/logo.svg" width="138" height="70" alt="логотип города Седона">
@@ -19,7 +20,7 @@
          </ul>
       </nav>
     </header>
-    <main class="container">
+    <main>
         <img src="img/background_photo.jpg" width="1200" height="509" alt="фото каньона с надписью СЕДОНА">
         <div class="title-wrap">
           <h1>СЕДОНА-НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h1> 
@@ -28,14 +29,17 @@
         <h2>РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН!</h2>
         <ul class="features-list">
           <li>
+            <div class="city">
             <div class="features-item-blue">
               <h3>НАСТОЯЩИЙ ГОРОДОК</h3>
               <p>— №1 —</p>
               <p>Седона - не аттракцион для туристов, там
                 течёт своя жизнь</p> 
             </div>
-            <img src="img/city.jpg" width="800" height="256" alt="фото городка">
-              <ul class="features-list-second ">
+              <div>
+                <img src="img/city.jpg" width="800" height="256" alt="фото городка">
+              </div>
+              <ul class="features-list-second">
                 <li class="features-item-inner">
                   <h4>ЖИЛЬЁ</h4>
                   <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
@@ -50,13 +54,16 @@
                     производства!</p>
                 </li>
               </ul>
+              </div>
           </li>
-          <li class="features-item-blue">
+          <li class="bridge">
+            <div class="features-item-blue">
             <h3>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h3>
-            <img src="img/devil's_bridge.jpg" width="800" height="256" alt="фото моста дьявола">
             <p>— №2 —</p>
             <p>Да, по нему можно пройти! Если конечно
               вы осмелитесь</p>
+            </div>
+            <img src="img/devil's_bridge.jpg" width="800" height="256" alt="фото моста дьявола">
           </li>
           <li class="features-item">
             <h3>НЕБОЛЬШАЯ ПЛОЩАДЬ</h3>
@@ -113,5 +120,6 @@
       <section class="modal-map">
         <!--Здесь будет карта-->
       </section>
+    </div>
     </body>
 </html>
