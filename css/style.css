@@ -15,6 +15,18 @@
    --background-color-brown-extra: #503E33;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
 .page-body {
     background-color: var(--background-color-grey-light);
     min-width: 1200px;
@@ -27,6 +39,8 @@
     align-content: start;
     min-height: 100vh;
     background-color: var(--color-white);
+    margin: 0 auto;
+    width: 1200px;
 }
 
 body {
@@ -49,6 +63,12 @@ a {
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.site-navigation li {
+    width: 300px;
 }
 
 .site-navigation a {
@@ -75,8 +95,8 @@ a {
     display: flex;
     width: 1200px;
     flex-wrap: wrap;
-    justify-content: space-around;
-    flex-basis: 400px;
+    list-style-type: none;
+    padding-left: 0px;
 }
 
 .city {
@@ -93,12 +113,20 @@ a {
 .features-list-second {
     display: flex;
     width: 1200px;
-    height: 330px;
+    min-height: 330px;
+    list-style-type: none;
+    padding-left: 0px;
+    align-items: center;
 }
 
 .features-item-blue {
     color: var(--color-white);
     background-color: var(--background-color-blue-light);
+    width: 400px;
+    min-height: 256px;
+}
+
+.features-item-inner {
     width: 400px;
 }
 
@@ -121,7 +149,9 @@ a {
 }
 
 .features-item {
-background-color: var(--background-color-grey);
+    background-color: var(--background-color-grey);
+    width: 400px;
+    min-height: 256px;
 }
 
 .features-item h3 {
@@ -143,7 +173,17 @@ background-color: var(--background-color-grey);
     font-weight: normal;
 }
 .page-footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
     text-align: center;
+}
+
+.footer-social ul { 
+    display: flex;
+    align-items: flex-start;
+    list-style-type: none;
+    padding-left: 0px;
 }
 
 .footer-contacts {
@@ -153,6 +193,10 @@ background-color: var(--background-color-grey);
     color: var(--color-black);
 }
 
+.social-button {
+    padding-right: 5px;
+}
+
 .footer-contacts a {
     color: var(--color-black);  
 }
@@ -160,6 +204,11 @@ background-color: var(--background-color-grey);
 .footer-copyright {
     line-height: 26px;
     color: var(--color-black);
+}
+
+.logo-footer {
+    display: flex;
+    align-items: flex-start;
 }
 
 .site-navigation .active {
