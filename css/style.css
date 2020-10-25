@@ -113,7 +113,6 @@ a {
 .features-list-second {
     display: flex;
     width: 1200px;
-    min-height: 330px;
     list-style-type: none;
     padding-left: 0px;
     align-items: center;
@@ -128,6 +127,7 @@ a {
 
 .features-item-inner {
     width: 400px;
+    min-height: 330px;
 }
 
 .bridge {
@@ -175,8 +175,13 @@ a {
 .page-footer {
     display: flex;
     align-items: flex-start;
-    justify-content: space-around;
     text-align: center;
+    min-height: 120px;
+    width: 1200px;
+}
+
+.footer-social {
+    width: 400px;
 }
 
 .footer-social ul { 
@@ -191,6 +196,7 @@ a {
     font-size: 21px;
     line-height: 26px;
     color: var(--color-black);
+    width: 400px;
 }
 
 .social-button {
@@ -209,6 +215,7 @@ a {
 .logo-footer {
     display: flex;
     align-items: flex-start;
+    width: 400px;
 }
 
 .site-navigation .active {
@@ -234,10 +241,37 @@ a {
     color: var(--color-black);
 }
 
+.list_hotels {
+    display: flex;
+    align-items: flex-start;
+}
+
+.item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.photo_hotel {
+    order: -1;
+}
+
+.item_sorting {
+    display: flex;
+    align-items: flex-start;
+}
+
+.item_sorting li {
+    padding-right: 32px;
+}
+
 .sorting  {
     font-size: 12px;
     line-height: 18px;
     color: var(--color-black); 
+}
+
+.sorting ul {
+    list-style-type: none;
 }
 
 .sorting a {

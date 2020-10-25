@@ -8,6 +8,7 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body class="inner-body">
+    <div class="container">
     <header class="inner-header">
       <nav class="main-navigation">
           <a href="index.html"><img src="img/logo.svg" width="138" height="70" alt="логотип города Седона"></a>
@@ -26,11 +27,12 @@
        <!--Здесь будет форма фильтра-->
      </section>
      <section>
-       <h2>Список отелей</h2>
+       <div class="list_hotels">
+       <!--<h2>Список отелей</h2>-->
        <p class="result">НАЙДЕНО:3</p>
        <div class="sorting">
          <p>СОРТИРОВКА:</p>
-         <ul>
+         <ul class="item_sorting">
            <li>
              <a class="a-active" href="">ПО ЦЕНЕ</a>
             </li>
@@ -42,30 +44,49 @@
             </li>
          </ul>
        </div>
+       </div>
        <ul class="hotels">
-         <li>
+         <li class="item">
+           <div>
            <h3><a class="hotels-result" href="">AMARA RESORT & SPA</a></h3>
-           <p><img src="img/amara_resort&spa.jpg" width="135" height="90" alt="фото гостиницы"></p>
            <p>ГОСТИНИЦА ОТ 4000 Р.</p>
            <a class="detail" href="">ПОДРОБНЕЕ</a>
            <a class="reserve" href="">ЗАБРОНИРОВАТЬ</a>
+           </div>
+           <div class="photo_hotel">
+           <p><img src="img/amara_resort&spa.jpg" width="135" height="90" alt="фото гостиницы"></p>
+           </div>
+           <div>
            <p class="rating">РЕЙТИНГ: 8,5</p>
+           </div>
           </li>
-         <li>
+         <li class="item">
+           <div>
            <h3><a class="hotels-result" href="">DESERT QUAIL INN</a></h3>
-           <p><img src="img/desert_quail_inn.jpg" width="135" height="90" alt="фото мотеля"></p>
            <p>МОТЕЛЬ ОТ 3000 Р.</p>
            <a class="detail" href="">ПОДРОБНЕЕ</a>
            <a class="reserve" href="">ЗАБРОНИРОВАТЬ</a>
+           </div>
+           <div class="photo_hotel">
+           <p><img src="img/desert_quail_inn.jpg" width="135" height="90" alt="фото мотеля"></p>
+           </div>
+           <div>
            <p class="rating">РЕЙТИНГ: 8,9</p>
+           </div>
          </li>
-         <li>
+         <li class="item">
+           <div>
           <h3><a class="hotels-result" href="">VILLAS AT POCO DIABLO</a></h3>
-          <p><img src="img/villas_at_poco_diablo.jpg" width="135" height="90" alt="фото апартамента"></p>
           <p>АПАРТАМЕНТЫ ОТ 2000 Р.</p>
           <a class="detail" href="">ПОДРОБНЕЕ</a>
           <a class="reserve" href="">ЗАБРОНИРОВАТЬ</a>
-          <p class="rating">РЕЙТИНГ: 9,2</p>  
+          </div>
+          <div class="photo_hotel">
+          <p><img src="img/villas_at_poco_diablo.jpg" width="135" height="90" alt="фото апартамента"></p>
+          </div>
+          <div>
+          <p class="rating">РЕЙТИНГ: 9,2</p> 
+          </div> 
          </li>
        </ul>
      </section>   
@@ -91,5 +112,6 @@
         <p class="footer-copyright">website by</p>
         <p><a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" Width="115" Height="41" alt="logo htmlacademy"></a></p>     
       </footer>
+    </div>
   </body>
 </html>      
